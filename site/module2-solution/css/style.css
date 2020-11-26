@@ -1,0 +1,63 @@
+/*File with all the styles of CSS */
+
+* {
+    box-sizing: border-box;
+}
+p {
+    float: right;
+    width: 100px;
+    margin: 0px;
+    border: 2px solid black;
+    text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+}
+h1 {
+    margin: 100px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 175%;
+}
+section {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+}
+.row {
+    width: 90%;
+}
+body {
+    background-color: white;
+}
+div {
+    position: relative;
+    background-color: gray;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+/*Layout: In the desktop view (992px and above)*/
+@media (min-width: 992px){
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+/*Layout: In the tablet view (between 768px and 991px, inclusively)*/
+@media (min-width: 768px) and (max-width: 991px){
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
