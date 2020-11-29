@@ -71,9 +71,9 @@ for (var prop in names) {
 
   if ( x==='j'||x==='J') {
    
-   console.log("Good Bye "+ names[prop]);
+   byeSpeaker.speak(names[prop]);
   } else {
-    console.log("Hello "+ names[prop]);
+    helloSpeaker.speak(names[prop]);
   }
 }
 })();
