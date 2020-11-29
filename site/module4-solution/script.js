@@ -63,7 +63,8 @@ WARNING!!! WARNING!!!
     // helloSpeaker.xxxx
   //}
 //}
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+(function() { 
+  var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
 for (var prop in names) {
   x=names[prop].charAt(0);
@@ -75,3 +76,4 @@ for (var prop in names) {
     console.log("Hello "+ names[prop]);
   }
 }
+})();
